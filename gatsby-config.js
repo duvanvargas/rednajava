@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/rednajava",
   siteMetadata: {
     title: "Gatsby Starter - Forty V2",
     author: "Hunter Chang",
