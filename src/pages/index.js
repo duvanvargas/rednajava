@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Rednajava - Red Nacional de investigación"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'rednajava' },
+                        { name: 'keywords', content: 'js, rednajava' },
                     ]}
                 >
                 </Helmet>
@@ -31,29 +31,29 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Actividades</h3>
+                                <p>Conoce nuestras actividades</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Meetups</h3>
+                                <p>conoce las fechas de nuestros proximos eventos</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Galeria</h3>
+                                <p>Mira las fotos de nuestras actividades y eventos</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Ofertas de empleo</h3>
+                                <p>Encuentra nuestras ofertas de empleo actualizadas</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -66,8 +66,8 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Semillero</h3>
+                                <p>Conoce nuestro semillero OpenSGroup</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -75,11 +75,14 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>¿Quienes somos?</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p> Rednajava es un grupo  conformado por estudiantes y profesores interesados en tecnología
+                            </p>
+                            <p>
+                            Nos reunimos semanalmente en la Universitaria Uniagustiniana para desarrollar actividades que incluyen discutir documentos e investigaciones, dialogar con invitados externos que desean compartir sus experiencias, presentar avances de investigaciones desarrolladas por el grupo y promover actividades relacionadas al desarrollo de software. Todo esto, con el fin de aumentar la visibilidad de esta región en la comunidad universitaria y al mismo tiempo crear espacios para que la actividad académica pueda tener impactos positivos en la región. </p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="#footer" className="button next">Contactanos</Link></li>
                             </ul>
                         </div>
                     </section>
